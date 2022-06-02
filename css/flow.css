@@ -1,0 +1,210 @@
+#flow{
+    background-color: rgb(34,34,34);
+    width: 100%;
+}
+#main-flow{
+    display: flex;
+    flex-direction: column;
+    margin: 10% 10% auto 10%;
+    gap:40px;
+}
+#flow1{
+    display: flex;
+    gap:40px;
+}
+#flow1-left{
+    width:50%;
+    height: auto;
+}
+#flow1-left h3{
+    color: rgb(20,114,179);
+    font-size: 15px;
+}
+#flow1-left #flow1-para{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+#flow1-left #flow1-list{
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+}
+#flow1-right{
+    width:50%;
+    height: auto;
+}
+#flow1-right img{
+    height: 400px;
+    width: 550px;
+}
+
+/* flow 2 css */
+#flow2{
+    display: flex;
+    gap:40px;
+}
+#flow2-right{
+    width:50%;
+    height: auto;
+}
+#flow2-right h3{
+    color: rgb(20,114,179);
+    font-size: 15px;
+}
+#flow2-right #flow2-para{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+#flow2-right #flow2-list{
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+}
+#flow2-left{
+    width:50%;
+    height: auto;
+}
+#flow2-left img{
+    height: 300px;
+    width: 450px;
+    text-align: left;
+}
+
+
+/* flow3 css */
+#flow3{
+    display: flex;
+    gap:40px;
+}
+#flow3-left{
+    width:50%;
+    height: auto;
+}
+#flow3-left h3{
+    color: rgb(20,114,179);
+    font-size: 15px;
+}
+#flow3-left #flow3-para{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+#flow3-left #flow3-list{
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+}
+#flow3-right{
+    width:50%;
+    height: auto;
+}
+#flow3-right img{
+    height: 400px;
+    width: 550px;
+}
+
+
+
+#main-role{
+    display: flex;
+    flex-direction: column;
+    margin: 10% 10% auto 10%;
+    gap:40px;
+}
+#main-role>center>h1{
+    color:white;
+    font-size: 40px;
+    font-stretch: 50px;
+}
+#role1{
+    display: flex;
+    gap:40px;
+}
+#role1-left{
+    width:50%;
+    height: auto;
+}
+#role1-left h1{
+    color: rgb(255, 255, 255);
+}
+#role1-left #role1-para{
+    color: white;
+}
+#role1-left #role1-list{
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+}
+#role1-right{
+    width:50%;
+    height: auto;
+}
+#role1-right img{
+    height: 400px;
+    width: 550px;
+}
+
+/* role 2 css */
+#role2{
+    display: flex;
+    gap:40px;
+}
+#role2-right{
+    width:50%;
+    height: auto;
+}
+#role2-right h1{
+    color: rgb(255, 255, 255);
+ }
+#role2-right #role2-para{
+    color: white;
+    font-size: 20px;
+}
+#role2-right #role2-list{
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+}
+#role2-left{
+    width:50%;
+    height: auto;
+}
+#role2-left img{
+    height: 300px;
+    width: 450px;
+    text-align: left;
+}
+
+
+/* role3 css */
+#role3{
+    display: flex;
+    gap:40px;
+}
+#role3-left{
+    width:50%;
+    height: auto;
+}
+#role3-left h1{
+    color: rgb(255, 255, 255);
+    
+}
+#role3-left #role3-para{
+    color: white;
+    font-size: 20px;
+}
+#role3-left #role3-list{
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+}
+#role3-right{
+    width:50%;
+    height: auto;
+}
+#role3-right img{
+    height: 400px;
+    width: 550px;
+}

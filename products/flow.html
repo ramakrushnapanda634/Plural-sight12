@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+    crossorigin="anonymous"
+  />
+    <script src="/components/navbar.js" defer></script>
+ <link rel="stylesheet" href="/components/navbar.css" />
+    <title>Pluralsight Flow | Overview | Pluralsight</title>
+    <link rel="stylesheet" href="/css/flow.css">
+</head>
+<body >
+    <nav id="navbar"></nav>
+    <div id="flow">
+    <div id="main-flow">
+        <div id="flow1">
+            <div id="flow1-left">
+                <h3>RETROSPECTIVE</h3>
+                <p id="flow1-para">Increase product delivery speed</p>
+                <ul id="flow1-list">
+                    <li>Identify bottlenecks and developer friction</li>
+                    <li>Improve flow efficiency and deployment</li>
+                    <li>Build healthy development patterns</li>
+                </ul>
+            </div>
+            <div id="flow1-right">
+                <img src="https://www.pluralsight.com/content/pluralsight/en/product/flow/jcr:content/main/generic_block_2045168047/parsys/columns/column-parsys-2/generic_block/parsys/image/image-res.img.bc9e0cb8-917b-42e7-af69-d52aa9ab8d9f.png" alt="">
+            </div>
+        </div>
+        <div id="flow2">
+            <div id="flow2-left">
+                <img src="https://www.pluralsight.com/content/dam/pluralsight2/flow-demo-assets/landing-page-logos/new-lp-assets/review%20collaboration.png" alt="">
+               
+            </div>
+            <div id="flow2-right">
+                <h3>REVIEW COLLABORATION</h3>
+                <p id="flow2-para">Build a thriving team</p>
+                <ul id="flow2-list">
+                    <li>Improve knowledge sharing and collaboration</li>
+                    <li>Coach and develop engineers</li>
+                    <li>Reduce onboarding ramp time</li>
+                    <li>Lead inclusively and objectively</li>
+                </ul>
+            </div>
+        </div>
+        <div id="flow3">
+            <div id="flow3-left">
+                <h3>CODE FUNDAMENTALS</h3>
+                <p id="flow3-para">Drive strategic alignment</p>
+                <ul id="flow3-list">
+                    <li>Standardize healthy practices</li>
+                    <li>Verify third-party contract work</li>
+                    <li>Evaluate investment decisions</li>
+                </ul>
+            </div>
+            <div id="flow3-right">
+                <img src="https://www.pluralsight.com/content/pluralsight/en/product/flow/jcr:content/main/generic_block_2045168047/parsys/columns/column-parsys-2/generic_block/parsys/image/image-res.img.bc9e0cb8-917b-42e7-af69-d52aa9ab8d9f.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="main-role">
+        <center><h1>Built for every role</h1></center>
+        <div id="role1">
+            <div id="role1-left">
+                <h1>Engineers</h1>
+                <p id="role1-para">Spend less time on status updates and more time discussing strategy, advocating for your ideas and talking about your career. </p>
+            </div>
+            <div id="role1-right">
+                <img src="https://www.pluralsight.com/content/dam/pluralsight2/flow-demo-assets/landing-page-logos/new-lp-assets/Check%20In%201%20(1).png" alt="">
+            </div>
+        </div>
+        <div id="role2">
+            <div id="flow2-left">
+                <img src="https://www.pluralsight.com/content/dam/pluralsight2/flow-demo-assets/landing-page-logos/Check%20In%201.png" alt="">
+               
+            </div>
+            <div id="role2-right">
+                <h1>Leaders</h1>
+                <p id="role2-para">Improve team patterns, identify over-burdened or blocked engineers, recognize hidden talent and know where you can best help your team grow.</p>
+            </div>
+        </div>
+        <div id="role3">
+            <div id="role3-left">
+                <h1>Executives</h1>
+                <p id="role3-para">Understand the impact that systemic changes—like agile adoptions, remote work, mergers and acquisitions—have on your business. </p>
+            </div>
+            <div id="role3-right">
+                <img src="https://www.pluralsight.com/content/dam/pluralsight2/flow-demo-assets/landing-page-logos/Check%20In%202.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="foot"></div>
+</body>
+</html>
+<script type="module">
+    import navbar from "/components/navbarhtml.js";
+    import footer from "/components/home/footer.js"
+    let footers=document.getElementById("foot")
+    let navbars = document.getElementById("navbar");
+    navbars.innerHTML = navbar();
+    footers.innerHTML=footer()
+  </script>
