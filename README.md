@@ -1,3 +1,4 @@
+Online Dev & IT Training. Sign Up Now For A Free Trial! Certification Prep. Expert-Led Courses. Hands-on Learning. Mobile Apps. Cloud Labs. Role IQ. Offline Access. Skill Assessments. Live Mentoring. Courses: Software Development, IT Ops, Cyber Security.
 # PluralSight-clone
 construct week project(masai) PluralSight.com clone
 ![Screenshot (52)](https://user-images.githubusercontent.com/94555507/161410163-36033ae4-f7df-4508-96b3-c7cf563be10e.png)
